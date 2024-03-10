@@ -1,0 +1,8 @@
+@startuml
+
+Professeur "1" -- "*" Discipline
+(Professeur, Discipline) .. Cours
+
+Etudiant --o Cours
+
+@enduml
